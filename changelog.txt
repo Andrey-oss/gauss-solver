@@ -1,0 +1,8 @@
+v1.0
+
+1. Project was created
+2. Added swap(), transpose_matrix(), gauss_method_algo(), minor(), gauss_method(), add_zeros() functions
+3. Based on dict/array data type
+4. Added some optimization (unoptimized fragments were commented) 
+5. Added exceptions into swap() function
+6. Added LICENSE and README.md
