@@ -6,3 +6,14 @@ v1.0
 4. Added some optimization (unoptimized fragments were commented) 
 5. Added exceptions into swap() function
 6. Added LICENSE and README.md
+
+v1.1
+
+1. Fixed bug with repeating values in the result
+2. Switched from dict/array to only array data type
+3. Some changes in example.py
+4. Added check_square() function
+5. Added some exceptions and checks
+6. Added a little bit optimization
+7. Fixed bug zero division (Equation doesn't have solutions or zero pivot)
+8. Added type annotation into the functions

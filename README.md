@@ -12,12 +12,14 @@ This is a **test project** implementing a system of linear equations solver usin
 
 ## 📌 Functions Overview
 
-- **`transpose_matrix(matrix)`** – Transposes a matrix (switching rows and columns)
-- **`add_zeros(matrix)`** – Adds zeros to the matrix after applying the Gaussian algorithm
-- **`swap(matrix, idx)`** – Swaps matrix rows for correct calculations
-- **`minor(matrix, idx)`** – Computes the minor of a matrix by rearranging rows
-- **`gauss_method_algo(eq_system, eq_matrix, result={})`** – Recursive Gaussian elimination algorithm to reduce the matrix to echelon form and find unknown variables
-- **`gauss_method(eq_system, eq_matrix)`** – Main function to solve a system of linear equations using the Gaussian method
+- **`transpose_matrix(matrix)`** – Transposes a matrix (switching rows and columns).
+- **`add_zeros(matrix)`** – Adds zeros to the matrix after applying the Gaussian algorithm.
+- **`swap(matrix, idx)`** – Swaps matrix rows for correct calculations.
+- **`minor(matrix, idx)`** – Computes the minor of a matrix by rearranging rows.
+- **`gauss_method_algo(eq_system, eq_matrix, result={})`** – Recursive Gaussian elimination algorithm to reduce the matrix to echelon form and find unknown variables.
+- **`gauss_method(eq_system, eq_matrix)`** – Main function to solve a system of linear equations using the Gaussian method.
+- **`full_return(matrix)`** – Returns in more legacy solutions.
+- **`check_matrix(matrix)`** – Check if matrix is square.
 
 ---
 
@@ -39,6 +41,9 @@ result = gauss_method(eq_system, eq_matrix)
 
 # Return result
 print (result) # [1.0, 2.0, 0.0, -1.0]
+
+# Return in full output
+print (matrix.full_return(result)) # {'x1': 1.0, 'x2': 2.0, 'x3': 0.0, 'x4': -1.0}
 ```
 
 ---
